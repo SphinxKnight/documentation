@@ -1,0 +1,10 @@
+{
+  "data": {
+    "attributes": {
+      "description": "Test agent rule",
+      "enabled": true,
+      "expression": "open.file.path == \"/etc/shadow\" && file.path not in [\"/usr/sbin/vipw\"]"
+    },
+    "type": "agent_rule"
+  }
+}

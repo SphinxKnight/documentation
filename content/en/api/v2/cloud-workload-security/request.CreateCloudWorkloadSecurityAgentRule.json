@@ -1,0 +1,11 @@
+{
+  "data": {
+    "attributes": {
+      "description": "Test agent rule",
+      "enabled": true,
+      "expression": "open.file.path == \"/etc/shadow\" && file.path not in [\"/usr/sbin/vipw\"]",
+      "name": "Example-Create_a_Cloud_Workload_Security_agent_rule_returns_OK_response"
+    },
+    "type": "agent_rule"
+  }
+}
